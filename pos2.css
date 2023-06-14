@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: white;
+    height: 100vh;
+}
+.ozo{
+    color: rgb(31, 141, 31);
+    font-size: large;
+    text-decoration: none;
+    font-weight: 500;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+.our{
+    display: flex;
+}
+.our > li {
+    list-style-type: none;
+}
+.our > li a {
+    text-decoration: none;
+    margin: 8px;
+    color: rgb(32, 155, 32);
+}
+.do{
+    background-image: url(/personal\ practice2/fam4.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    /* width: 100%; */
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgb(223, 219, 219);
+   
+    
+}
+.ins{
+    color: rgb(20, 152, 20);
+    font-size: xx-large;
+    padding: 100px;
+    
+}
+.more{
+    border: 1px solid rgb(18, 2, 2);
+    color: green;
+    background-color: white;
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    /* border-width: 20px; */
+    /* border-collapse: collapse; */
+    border: none;
+    padding: 15px;
+    position: relative;
+    bottom: 60px;
+    width: 85%;
+    /* text-align: center; */
+    margin: auto;
+    box-shadow: 1px 1px rgb(243, 238, 238);
+
+}
+.sect{
+    display: flex;
+    align-items: center;
+    /* margin-top: 40px; */
+    justify-content: space-around;
+}
+.img-con {
+    
+    position: relative;
+}
+.dad{
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+.save{
+    color: rgb(4, 45, 4);
+    /* padding-top: 100px; */
+    height: 300px;
+}
+.da{
+    position: absolute;
+    left: 180px;
+    bottom: -80px;
+    z-index: -1;
+    /* height: 30px; */
+    
+}
+button {
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: rgb(4, 51, 4);
+    color: white;
+    border: 1px solid rgb(4, 52, 4);
+}
+
